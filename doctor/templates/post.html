@@ -1,0 +1,468 @@
+{% extends "index.html" %}
+{% load static %}
+
+        {% block title%}
+        <title>medicine|sample-page</title>
+        {% endblock %}
+        
+    <body>
+       
+        {% block header %}
+        <header class="masthead" style="background-image: url('{% static 'assets/img/sm1.jpg' %}'); height:650px;">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            {% comment %} <h1>Man must explore, and this is exploration at its greatest</h1>
+                            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+                            <span class="meta">
+                                Posted by {% endcomment %}
+                               
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c1.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c2.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c3.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">order now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c4.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c5.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c6.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c7.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c8.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c1.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c2.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c3.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/c4.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/i1.jpg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/i2.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/i3.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">order now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/i4.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/s1.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/s2.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/s3.jpeg' %}" class="card-img-top" alt="loading..">
+              
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          
+            <div class="card col-xl-3">
+              <img src="{% static 'assets/img/s4.jpeg' %}" class="card-img-top" alt="loading..">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s5.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s6.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s7.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s8.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s9.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s10.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s11.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s12.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s1.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s2.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s3.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            
+              <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/s4.jpeg' %}" class="card-img-top" alt="loading..">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c1.jpeg' %}" class="card-img-top" alt="loading..">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c2.jpeg' %}" class="card-img-top" alt="loading..">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c3.jpeg' %}" class="card-img-top" alt="loading..">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">order now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c4.jpeg' %}" class="card-img-top" alt="loading..">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c5.jpeg' %}" class="card-img-top" alt="loading..">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c6.jpeg' %}" class="card-img-top" alt="loading..">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c7.jpeg' %}" class="card-img-top" alt="loading..">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c8.jpeg' %}" class="card-img-top" alt="loading..">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="width:95vw;padding-left:80px; margin-top:100px;">
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c1.jpeg' %}" class="card-img-top" alt="loading..">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c2.jpeg' %}" class="card-img-top" alt="loading..">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c3.jpeg' %}" class="card-img-top" alt="loading..">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              
+                <div class="card col-xl-3">
+                  <img src="{% static 'assets/img/c4.jpeg' %}" class="card-img-top" alt="loading..">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="{% url 'orders' %}" class="btn btn-primary">orders now</a>
+                  </div>
+                </div>
+              </div>
+
+        {% endblock %}
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'js/scripts.js' %}"></script>
+    </body>
+</html>

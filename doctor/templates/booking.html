@@ -1,0 +1,51 @@
+{% extends "index.html" %}
+
+{% block title %}
+<title>Medicine|booked</title>
+{% endblock %}
+
+{% block header %}
+<style>
+    table{
+        background-color: rgb(235, 245, 245);
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+        
+    }
+    table:hover{
+        background-color: rgb(53, 158, 158)!important;
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+
+    }
+</style>
+    
+    <h1  style="background-color:rgb(7, 70, 95); color:rgb(230, 199, 27);text-align:center; margin-top:80px; width:50%;margin-left:25%;box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);">ORDERS DATA</h1>
+   
+    <table border="1px" align="center" width="90%" height="100%" rules="groups">
+        <!-- <caption>ORDERS DATA</caption> -->
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Pic</th>
+            <th>Price</th>
+            <th>Discount</th>
+            <th>Final Price</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+        </tr>
+        {% for item in item %}
+        <tr>
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.brand }}</td>
+            <td>{{ item.pic }}</td>
+ 
+            <td>{{ item.price }}</td>
+            <td>{{ item.discount }}</td>
+            <td>{{ item.finalprice }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.total_price }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

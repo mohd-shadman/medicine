@@ -1,0 +1,58 @@
+{% extends "index.html" %}
+
+{% block title %}
+<title>Medicine|orders</title>
+{% endblock %}
+
+{% block header %}
+<div class="orders">
+    <form method="POST" action="{% url 'getvalue' %}" id="orders"  style="padding-top:80px">
+        {% csrf_token %}
+        <h1 style="background-color:navy; color:red;text-align:center; width:50%; margin-left:25%;"> BOOK YOUR ORDERS </h1>
+        
+        <table border="1px" align="center" width="350" height="450" rules="none">
+            <!-- <caption> ORDERS FORM</caption> -->
+            <tr>
+                <td>Name:</td>
+                <td>{{form1.name}}</td>
+            </tr>
+
+            <tr>
+                <td>brand name:</td>
+                <td>{{form1.brand}}</td>
+            </tr>
+
+            <tr>
+                <td>Medicine-image:</td>
+                <td>{{form1.pic}}</td>
+            </tr>
+            <tr>
+                <td>price:</td>
+                <td>{{form1.price}}</td>
+            </tr>
+            <tr>
+                <td>finalprice:</td>
+                <td>{{form1.finalprice}}</td>
+            </tr>
+            <tr>
+                <td>Discount:</td>
+                <td>{{form1.discount}}</td>
+            </tr>
+            <tr>
+                <td>Quantity:</td>
+                <td>{{form1.quantity}}</td>
+            </tr>
+            
+
+            <tr>
+                <td colspan="2">
+                    <input style="background-color:navy;color:white;width:100%" type="submit" value="submit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div class="data-btn">
+<a href="{% url 'booking' %}">show data orders</a>
+</div>
+{% endblock %}

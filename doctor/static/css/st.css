@@ -1,0 +1,55 @@
+.card img{
+    height: 270px;
+    width: auto;
+    
+}
+.card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #9db9a6; /* Change background color on hover */
+  }
+  /* .card {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); Responsive grid with minimum column width of 200px */
+    /* grid-gap: 20px; */
+  
+.orders form table{
+  background-color: rgb(170, 250, 213);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+.orders table td{
+  text-shadow: 2px 2px 4px rgba(7, 243, 231, 0.829);;
+}
+.orders table td:hover{
+  /* text-shadow: 2px 2px 4px rgba(7, 243, 231, 0.829);; */
+  background-color: rgba(201, 243, 243, 0.925);
+}
+.orders form{
+  background-color: rgb(201, 180, 204);
+}
+.data-btn {
+  /* background-color: blue; */
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  background-color:rgb(170, 250, 213); ;
+  border-radius: 20px;
+  margin-top: 10px!important;
+}
+.data-btn a{
+  /* background-color: rgb(8, 5, 1); */
+  color: rgb(2, 2, 0);
+}
+.navi{
+  /* background-color: rgb(34, 209, 19)!important; */
+  height: 60px;
+  box-shadow: 3px 3px 5px black;
+}
+.orders h1{
+  box-shadow: 3px 3px 5px rgba(68, 45, 2, 0.89);
+}
